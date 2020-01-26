@@ -1,0 +1,58 @@
+Applications of stack:
+
+Expression Evaluation
+
+Stack is used to evaluate prefix, postfix and infix expressions.
+
+ 
+
+Expression Conversion
+
+An expression can be represented in prefix, postfix or infix notation. Stack can be used to convert one form of expression to another.
+
+ 
+
+Syntax Parsing
+
+Many compilers use a stack for parsing the syntax of expressions, program blocks etc. before translating into low level code.
+
+ 
+
+Backtracking
+
+Suppose we are finding a path for solving maze problem. We choose a path and after following it we realize that it is wrong. Now we need to go back to the beginning of the path to start with new path. This can be done with the help of stack.
+
+ 
+
+Parenthesis Checking
+
+Stack is used to check the proper opening and closing of parenthesis.
+
+
+String Reversal
+
+Stack is used to reverse a string. We push the characters of string one by one into stack and then pop character from stack.
+
+ 
+
+Function Call
+
+Stack is used to keep information about the active functions or subroutines.
+
+ 
+
+There are various other applications of stack. I have mentioned some of them.
+
+
+
+
+
+
+Applications of Queue:
+Queue, as the name suggests is used whenever we need to manage any group of objects in an order in which the first one coming in, also gets out first while the others wait for their turn, like in the following scenarios:
+
+1.Serving requests on a single shared resource, like a printer, CPU task scheduling etc.
+
+2.In real life scenario, Call Center phone systems uses Queues to hold people calling them in an order, until a service representative is free.
+
+3.Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive i.e First come first served.

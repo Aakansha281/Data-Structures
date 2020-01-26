@@ -1,0 +1,18 @@
+Queue:Works on th First In First Out principle
+Stack:Works on the Last In First Out Principle
+
+
+We can implement a queue using 2 stacks in the foloowing way:
+
+Create 2 stacks stack1 and stack2.
+The stack1 holds the correctly enqueued elements.Stack2 is empty.
+
+To perform Enqueue operation:
+Step1:pop elements from stack 1 and push into stack 2 until stack 1 is empty.
+Step2:Now, push the element to be enqueued into stack 1
+Step3:And then, pop elements from stack 2 and push them back to stack 1 until stack 2 is empty.
+
+
+To perform Dequeue operation:
+Step1:First, we need to check whether stack 1 is empty (which in our case is not). If so, an error message should be displayed 'Underflow'. Because there's no element to throw away.
+Step2:pop an element from stack 1 and return it.
