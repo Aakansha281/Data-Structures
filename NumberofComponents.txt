@@ -1,0 +1,50 @@
+Algorithm to calculate number of components of a graph
+
+Procedure component_count(G)
+First mark all nodes as not visited
+for each v belonging to N mark[v] as not visited
+count=0
+for each v belonging to N do
+{
+if(mark[v]!=visited) then
+{
+  count=count+1
+  bfs(v) or dfs(v)// call binary first search or depth first search algorithm
+}
+}
+return count
+
+
+
+connected_components(G)
+{
+for each vertex v belonging to N
+         flag[v]=-1
+count=0
+for(int v=0;v<N;v++)
+{
+   if(flag[v]=-1)
+    {
+       DFS(v,flag);
+       count++;
+    }
+}
+cout<<count
+}
+DFS(int v, int flag)
+{
+flag[v]=1,
+cout<<v
+for each adjacent node u of v
+if(flag[u]==-1)
+   DFS(u,flag)
+}
+
+
+Assign a flag value -1 to all the vertices in the graph
+N is total number of vertices in the graph
+From the for loop the control goes to DFS which marks flag value of all connected vertices as 1 .
+DFS will be called as many times as there are components in the  graph.
+The count variable stores the number of components.
+
+

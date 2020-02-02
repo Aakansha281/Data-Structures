@@ -1,0 +1,31 @@
+Singly Linked List
+1.Insertion
+A linked list can typically only be accessed via its head node. From there you can only traverse from node to node until you reach the node you seek. 
+2.Deletion
+O(1), if done at the head, O(n) if anywhere else since we have to reach that position by traveseing the linkedlist linearly.
+3.Searching
+It involves traversal of the linked list till the required element is found therefore time complexity is O(n).
+
+Stack
+1.Insertion(Push operation)
+Constant time complexity O(1).
+2.Deletion(Pop operation)
+Constant time complexity O(1)
+3.Searching
+Searching for a given value in the stack requires repeatedly popping elements off the top of the stack until you find the value you seek. So search is O(n).
+
+Queue
+1.Insertion 
+Insertion has constant time complexity O(1)
+2.Deletion
+Since we don't need to traverse the whole queue for insertion at the end therefore deletion has constant time complexity O(1)
+3.Searching
+Since searching involves traversing through the entire queue  therefore the complexity is O(n).
+
+Tree
+1.Insertion
+Since insertion involves traversal therefore the complexity is O(n).
+2.Deletion
+Since deletion involves traversal  therefore the complexity is O(n).
+3.Searching
+The complexity is O(n).
